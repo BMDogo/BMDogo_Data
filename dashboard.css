@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background: #bfeaff;
+    padding: 0;
+    min-height: 100vh ;
+    
+}
+.header{
+    background: #08255f;
+    display: flex;
+    justify-content: space-around;
+    aalign-items: center;
+}
+.dashboard{
+    background: #1d1e57;
+    margin: auto;
+    padding: 15px;
+    color: aqua;  
+}
+.balance{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    mmargin-top: -10px;
+}
+.welcome{
+    margin-top: -25px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+}
+#acc{
+    margin-top: -10px;
+    padding: 2px 40px;
+}
+.limit{
+    border: 1px solid azure;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.quick-action{
+    padding: 15px;
+    color: darkblue;
+}
+.boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;  
+}
+.box{
+  border: 2px outset aliceblue;  
+  width: 100px;
+  height: 130px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 3px 5px 5px rgba(0,0,0,0.9);
+  margin-top: 20px;
+}
+.box p{
+    color: black;
+}
+.branch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    line-height: 10px;
+    border: 2px outset aliceblue; 
+    box-shadow: 3px 5px 5px rgba(0,0,0,0.9);
+    width: 84%;
+    margin: auto;
+}
+.branch h3{
+    color: darkblue ;
+    font-size: 17px;
+}
+.extra{
+    height: 100px;
+}
+.location{
+    color: darkblue;
+}
+.history{
+    padding: 15px;
+}
+.history h3{
+    color: darkblue;
+}
+.histories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid azure;
+}
+.histories h4{
+    color: darkblue;
+}
+.debit{
+    color: red;
+    font-weight: bold;
+    
+}
+.credit{
+    color: green;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    background: #1d1e57;
+    bottom: 0;
+    position: static;
+    margin: 0;
+}
+footer p{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: aqua;
+}
+.logout{
+    height: 30px;
+    padding: 10px;
+    margin: 1px auto;
+    width: fit-content;   
+}
+#logout{
+    background: #bfeaff ;
+    color: darkblue;
+    border: 2px outset black;
+    font-weight: bold; 
+}
