@@ -60,7 +60,7 @@ localStorage.setItem('isLoggedIn', 'true');
    // redirect to dashboard 
    
    setTimeout(() => {
-       window.location.href = 'Dashboard/index.html';
+       window.location.href = 'index2.html';
    }, 2000);
   }else {
     Msg.innerHTML = 'Invalid Username or Password❌' ;
