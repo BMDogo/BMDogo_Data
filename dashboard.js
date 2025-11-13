@@ -5,7 +5,7 @@ if(logged === 'true') {
    document.getElementById('welcome').textContent = `Welcome Back ${currentUser}!!!`;
 }else {
 setTimeout(() =>{
-   window.location.href = '../index.html';
+   window.location.href = 'index.html';
    },300);
    };
 let logout = document.getElementById('logout');
@@ -14,6 +14,6 @@ function Out() {
     localStorage.removeItem('currentUser');
     localStorage.removeItem('isLoggedIn');
     setTimeout(() => {
-        window.location.href = '../index.html';
+        window.location.href = 'index.html';
     }, 1000)
 }
